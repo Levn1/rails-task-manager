@@ -1,0 +1,9 @@
+<%# Creating the view for the index method %>
+
+<h2>Tasks</h2>
+<% @tasks.each do |task| %>
+<h3>▪ <%= task.title %></h3>
+<%= link_to "GO TO TASK", task_path(task) %>
+<% end %>
+<br>
+<h2><%= link_to "CREATE TASK", tasks_new_path %></h2>

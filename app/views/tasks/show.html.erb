@@ -1,0 +1,6 @@
+<%# Creating the view for the details page of each /whateverID %>
+<h2><%= @task.title %></h2>
+<h3><%= @task.details %></h3>
+<%= link_to "Go Back", tasks_path %>
+<%= link_to "EDIT", edit_task_path %>
+<%= link_to "delete task", delete_task_path(@task), method: :delete, data: {confirm: "Are you sure?"} %>

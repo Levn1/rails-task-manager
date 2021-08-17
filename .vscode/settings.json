@@ -1,0 +1,33 @@
+{
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false,
+    "node_modules": false,
+    "tmp": false,
+    "log": false,
+    ".asset-cache": false,
+    ".bundle": false,
+    ".ipynb_checkpoints": false,
+    ".pytest_cache": false,
+    ".sass-cache": false,
+    ".svn": false,
+    "__pycache__": false,
+    "_site": false,
+    "build": false,
+    "coverage": false,
+    "dist": false,
+    "public/packs": false,
+    "**/.egg-info": false,
+    "**/public": false,
+    "**/bin": false,
+    "**/log": false,
+    "**/test": false,
+    "**/vendor": false,
+    "**/tmp": false,
+    "**/lib": false
+  },
+  "explorerExclude.backup": null
+}
